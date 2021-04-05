@@ -180,7 +180,7 @@ def main():
             optimizer.step()
 
             if iteration % 100 == 0:
-                print('Epoch: {}/{}'.format(e, 200),
+                print('Epoch: {}/{}'.format(e, 50),
                       'Iteration: {}'.format(iteration),
                       'Loss: {}'.format(loss_value))
 
